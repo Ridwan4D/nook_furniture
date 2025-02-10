@@ -1,0 +1,45 @@
+@media (min-width: 481px) and (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    /* ============ header section start =============== */
+    .header_container {
+        padding-top: 10;
+    }
+
+    /* ============ header section end =============== */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    /* ============ header section start =============== */
+    .header_container {
+        padding-top: 0;
+    }
+
+    .hamburger_img {
+        width: 55px;
+        height: 40px;
+    }
+
+    .nav_end {
+        display: none;
+    }
+
+    /* ============ header section end =============== */
+}
