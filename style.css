@@ -1,0 +1,80 @@
+@import url('https://fonts.cdnfonts.com/css/roslindale');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #00494A;
+    --secondary-color: #6D7373;
+}
+
+.font_roslindale {
+    font-family: 'Roslindale', sans-serif;
+}
+
+.font_inter {
+    font-family: "Inter", serif;
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex_col {
+    flex-direction: column;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.font_bold {
+    font-weight: 700;
+}
+
+.text-lg {
+    font-size: 18px;
+}
+
+.mt-8 {
+    margin-top: 2rem;
+    /* 32px */
+}
+
+.mt-9 {
+    margin-top: 2.25rem;
+    /* 36px */
+}
+
+.mt-10 {
+    margin-top: 2.5rem;
+    /* 40px */
+}
+
+.mb-8 {
+    margin-bottom: 2rem;
+    /* 32px */
+}
+
+.mb-9 {
+    margin-bottom: 2.25rem;
+    /* 36px */
+}
+
+.mb-10 {
+    margin-bottom: 2.5rem;
+    /* 40px */
+}
