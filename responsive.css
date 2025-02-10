@@ -8,6 +8,7 @@
         padding-top: 10;
     }
 
+
     /* ============ header section end =============== */
 }
 
@@ -39,6 +40,19 @@
 
     .nav_end {
         display: none;
+    }
+
+    .hero_header {
+        margin-top: 15px;
+        gap: 12px;
+    }
+
+    .hero_heading {
+        font-size: 21px;
+    }
+
+    .hero_para {
+        font-size: 12px;
     }
 
     /* ============ header section end =============== */

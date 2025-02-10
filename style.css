@@ -96,9 +96,14 @@
 }
 
 .hero_para {
-    width: 440px;
+    max-width: 440px;
     color: var(--secondary-color);
     margin: 0 auto;
+}
+
+.hero_body {
+    display: grid;
+    grid-template-columns: 12fr;
 }
 
 /* =========== header section ends here ================ */
