@@ -25,7 +25,9 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 35px;
     }
-
+    .see_all_bnt_div {
+        margin-top: 40px;
+    }
     /* ============ popular section end =============== */
 }
 
@@ -81,6 +83,10 @@
         margin-top: 20px;
         grid-template-columns: repeat(2, 1fr);
         gap: 35px;
+    }
+
+    .see_all_bnt_div {
+        margin-top: 30px;
     }
 
     /* ============ popular section end =============== */
@@ -163,6 +169,10 @@
         margin-top: 20px;
         grid-template-columns: 1fr;
         gap: 24px;
+    }
+
+    .see_all_bnt_div {
+        margin-top: 20px;
     }
 
     /* ============ popular section end =============== */

@@ -239,4 +239,23 @@
     color: var(--secondary-color);
 }
 
+.see_all_bnt_div {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.see_all_bnt,
+.see_all_bnt_arrow {
+    background: none;
+    border: none;
+    text-decoration: underline;
+    font-size: 18px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+
 /* =========== marquee section starts here ================ */
