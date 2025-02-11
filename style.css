@@ -8,6 +8,7 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    font-style: normal;
 }
 
 :root {
@@ -139,3 +140,103 @@
 }
 
 /* =========== header section ends here ================ */
+
+/* =========== marquee section starts here ================ */
+#marquee_section {
+    padding: 24px 0;
+    border-bottom: 1px solid #6D7373;
+}
+
+.marquee_parent {
+    display: flex;
+    gap: 24px;
+}
+
+.marquee_item {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 22px;
+    color: var(--secondary-color);
+}
+
+/* =========== marquee section ends here ================ */
+
+
+/* =========== marquee section starts here ================ */
+#popular_section {
+    margin-top: 143px;
+}
+
+.popular_header {
+    display: flex;
+    justify-content: center;
+}
+
+
+.popular_heading {
+    font-size: 48px;
+    line-height: 62.4px;
+    color: #303635;
+}
+
+.popular_body {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular_tab_box {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #CFCFCF;
+    gap: 44.33px;
+    position: relative;
+}
+
+.tab_btn {
+    font-size: 18px;
+    color: #414141;
+    background: none;
+    border: none;
+    padding-bottom: 10px;
+}
+
+.popular_tab_box .active {
+    color: var(--primary-color);
+}
+
+.popular_tab_box .line {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 65px;
+    height: 4px;
+    border-radius: 35px;
+    background-color: var(--primary-color);
+    transition: all .3s ease-in-out;
+}
+
+.tab_content_box {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.tab_card_body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 14px;
+}
+
+.tab_card_price {
+    font-size: 20px;
+    font-style: normal;
+    color: var(--secondary-color);
+}
+
+/* =========== marquee section starts here ================ */

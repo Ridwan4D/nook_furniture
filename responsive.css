@@ -19,6 +19,14 @@
     }
 
     /* ============ header section end =============== */
+    /* ============ popular section start =============== */
+    .tab_content_box {
+        margin-top: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 35px;
+    }
+
+    /* ============ popular section end =============== */
 }
 
 
@@ -67,6 +75,15 @@
     }
 
     /* ============ header section end =============== */
+
+    /* ============ popular section start =============== */
+    .tab_content_box {
+        margin-top: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+
+    /* ============ popular section end =============== */
 }
 
 
@@ -132,4 +149,21 @@
     }
 
     /* ============ header section end =============== */
+
+    /* ============ popular section start =============== */
+    .popular_heading {
+        font-size: 31px;
+    }
+
+    .popular_body {
+        margin-top: 20px;
+    }
+
+    .tab_content_box {
+        margin-top: 20px;
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    /* ============ popular section end =============== */
 }
