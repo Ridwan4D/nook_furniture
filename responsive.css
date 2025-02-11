@@ -25,10 +25,35 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 35px;
     }
+
     .see_all_bnt_div {
         margin-top: 40px;
     }
+
     /* ============ popular section end =============== */
+
+    /* ============ futura section start =============== */
+    .futura_container {
+        padding: 30px 15px;
+    }
+
+    .futura_heading {
+        font-size: 50px;
+        line-height: 60.4px;
+        margin-bottom: 20px;
+    }
+
+    .futura_left_bottom {
+        margin-top: 50px;
+        width: 90%;
+        gap: 80px;
+    }
+
+    .futura_badge {
+        width: 40%;
+    }
+
+    /* ============ futura section end =============== */
 }
 
 
@@ -90,6 +115,33 @@
     }
 
     /* ============ popular section end =============== */
+
+    /* ============ futura section start =============== */
+    .futura_container {
+        flex-direction: column;
+        padding: 20px 0;
+        align-items: center;
+    }
+
+    .futura_heading {
+        line-height: 60.4px;
+        margin-bottom: 14px;
+    }
+
+    .futura_left_bottom {
+        margin-top: 40px;
+    }
+
+    .futura_right {
+        margin-top: 50px;
+    }
+
+    .futura_badge {
+        top: -30px;
+    }
+
+    /* ============ futura section end =============== */
+
 }
 
 
@@ -176,4 +228,43 @@
     }
 
     /* ============ popular section end =============== */
+
+    /* ============ futura section start =============== */
+    .futura_container {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .futura_heading {
+        margin-top: 20px;
+        font-size: 35px;
+        line-height: 45.4px;
+    }
+
+    .futura_left_bottom {
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .futura_bottom_heading {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+
+    .futura_bottom_info {
+        font-size: 35px;
+    }
+
+    .futura_right {
+        margin-top: 25px;
+    }
+
+    .futura_badge {
+        top: 30px;
+    }
+
+    /* ============ futura section end =============== */
 }

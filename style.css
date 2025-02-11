@@ -163,7 +163,7 @@
 /* =========== marquee section ends here ================ */
 
 
-/* =========== marquee section starts here ================ */
+/* =========== popular section starts here ================ */
 #popular_section {
     margin-top: 143px;
 }
@@ -212,7 +212,7 @@
     position: absolute;
     top: 30px;
     left: 0;
-    width: 65px;
+    width: 40px;
     height: 4px;
     border-radius: 35px;
     background-color: var(--primary-color);
@@ -257,5 +257,129 @@
     cursor: pointer;
 }
 
+/* =========== popular section ends here ================ */
 
-/* =========== marquee section starts here ================ */
+
+/* =========== futura section starts here ================ */
+#futura_section {
+    height: auto;
+    margin-top: 144px;
+    position: relative;
+}
+
+#futura_section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/futura_design_bg.png');
+    background-size: cover;
+    background-position: bottom;
+    z-index: -1;
+}
+
+.futura_container {
+    padding: 150px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.futura_left {
+    max-width: 638px;
+    /* width: auto; */
+}
+
+.futura_heading {
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 78.4px;
+    margin-bottom: 32px;
+    color: white;
+}
+
+.futura_desc {
+    color: #F7F8F7;
+    font-size: 20px;
+    line-height: 32px;
+    padding-right: 15%;
+    margin-bottom: 24px;
+}
+
+.futura_btn {
+    font-size: 18px;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.futura_btn:hover {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 2px 5px 2px 15px;
+    border-radius: 5px;
+}
+
+.futura_left_bottom {
+    margin-top: 81px;
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding: 40px 56px;
+    color: var(--primary-color);
+    display: flex;
+    gap: 117px;
+}
+
+.futura_left_bottom::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/counter_bg.png');
+    background-size: cover;
+    background-position: bottom;
+    z-index: 0;
+}
+
+.futura_bottom_element {
+    position: relative;
+    z-index: 1;
+}
+
+.futura_bottom_heading {
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 26px;
+}
+
+.futura_bottom_info {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.futura_right {
+    position: relative;
+}
+
+.futura_img {
+    width: 100%;
+}
+
+.futura_badge {
+    position: absolute;
+    top: -100px;
+    right: 0;
+}
+
+/* =========== futura section ends here ================ */
