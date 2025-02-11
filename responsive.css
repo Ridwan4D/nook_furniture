@@ -142,6 +142,17 @@
 
     /* ============ futura section end =============== */
 
+    /* ============ choose section start =============== */
+    .choose_header {
+        font-size: 44px;
+        margin-bottom: 45px;
+    }
+
+    #choose_section {
+        padding: 70px 0;
+    }
+
+    /* ============ choose section end =============== */
 }
 
 
@@ -175,7 +186,7 @@
     }
 
     .hero_header {
-        margin-top: 15px;
+        margin-top: 30px;
         gap: 12px;
     }
 
@@ -267,4 +278,36 @@
     }
 
     /* ============ futura section end =============== */
+
+    /* ============ choose section start =============== */
+    #choose_section {
+        padding: 50px 0;
+    }
+
+    .choose_header {
+        font-size: 35px;
+        line-height: 18px;
+        margin-bottom: 65px;
+    }
+
+    .choose_body {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .choose_card_img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .choose_card_body {
+        margin-top: 10px;
+    }
+
+    .choose_card_desc {
+        padding: 0 18px;
+    }
+
+    /* ============ choose section end =============== */
 }
