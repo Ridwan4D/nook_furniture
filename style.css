@@ -102,8 +102,32 @@
 }
 
 .hero_body {
-    display: grid;
-    grid-template-columns: 12fr;
+    margin-top: 52px;
+    justify-content: space-between;
+}
+
+.hero_small_card {
+    max-width: 269px;
+}
+
+.hero_card_body {
+    margin-top: 20px;
+    gap: 120px;
+}
+
+.hero_card_title {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    color: #303635;
+}
+
+.hero_card_2 {
+    font-size: 24px;
+}
+
+.hero__img_card_parent {
+    margin-top: 135px;
 }
 
 /* =========== header section ends here ================ */
