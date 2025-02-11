@@ -138,18 +138,37 @@
 .hero__img_card_parent {
     margin-top: 135px;
 }
-
+.hero__img_card_parent{
+    position: relative;
+}
+.hero_badge{
+    position: absolute;
+    top: -98px;
+    left: 33%;
+}
 /* =========== header section ends here ================ */
 
 /* =========== marquee section starts here ================ */
 #marquee_section {
     padding: 24px 0;
     border-bottom: 1px solid #6D7373;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
 }
 
-.marquee_parent {
+.logos {
     display: flex;
-    gap: 24px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.logos-slide {
+    display: flex;
+    gap: 20px;
+    animation: slide 10s linear infinite;
+    width: max-content;
 }
 
 .marquee_item {
@@ -160,7 +179,17 @@
     color: var(--secondary-color);
 }
 
-/* =========== marquee section ends here ================ */
+/* =========== Animation for Endless Scrolling ================ */
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* =========== animation of marquee section ends here ================ */
 
 
 /* =========== popular section starts here ================ */
@@ -615,3 +644,29 @@
 }
 
 /* =========== footer section ends here ================ */
+
+
+.rotate_360{
+    -webkit-animation: spin 5s linear infinite;
+    -moz-animation: spin 5s linear infinite;
+    animation: spin 5s linear infinite;
+}
+
+
+
+
+
+
+
+
+
+/* =========== animation ============== */
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}

@@ -108,6 +108,13 @@
         gap: 10px;
     }
 
+    .hero_badge{
+        position: absolute;
+        top: 5px;
+        left: 24%;
+        width: 50%;
+    }
+
     /* ============ header section end =============== */
 
     /* ============ popular section start =============== */
@@ -230,7 +237,12 @@
     .hero_card_title {
         font-size: 18px;
     }
-
+    .hero_badge{
+        position: absolute;
+        top: 5px;
+        left: 24%;
+        width: 50%;
+    }
     /* ============ header section end =============== */
 
     /* ============ popular section start =============== */
