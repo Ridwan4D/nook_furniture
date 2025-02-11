@@ -49,7 +49,7 @@
 
 /* =========== header section starts here ================ */
 #header_section {
-    height: 993px;
+    height: auto;
     position: relative;
 }
 
@@ -108,6 +108,14 @@
 
 .hero_small_card {
     max-width: 269px;
+}
+
+.hero_mid_card {
+    max-width: 600px;
+}
+
+.hero_card_images {
+    width: 100%;
 }
 
 .hero_card_body {
