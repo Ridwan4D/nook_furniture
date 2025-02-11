@@ -327,7 +327,7 @@
 
     /* ============ contact section start =============== */
     #contact_section {
-        padding: 0px 0 104px;
+        padding: 0px;
     }
 
     .contact_container {
@@ -341,4 +341,34 @@
     }
 
     /* ============ contact section end =============== */
+
+
+    /* ============ footer section start =============== */
+    .footer_top {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer_top_desc {
+        margin-bottom: 20px;
+    }
+
+    .footer_top_center {
+        gap: 80px;
+    }
+
+    .footer_heading {
+        padding-right: 5%;
+    }
+
+    .footer_bottom {
+        flex-direction: column;
+    }
+
+    .privacy_div {
+        margin-top: 20px;
+        gap: 30px;
+    }
+
+    /* ============ footer section end =============== */
 }
