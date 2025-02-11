@@ -54,6 +54,13 @@
     }
 
     /* ============ futura section end =============== */
+
+    /* ============ contact section start =============== */
+    .contact_container {
+        padding: 70px 15px;
+    }
+
+    /* ============ contact section end =============== */
 }
 
 
@@ -153,6 +160,13 @@
     }
 
     /* ============ choose section end =============== */
+
+    /* ============ contact section start =============== */
+    .contact_container {
+        padding: 120px 15px;
+    }
+
+    /* ============ contact section end =============== */
 }
 
 
@@ -310,4 +324,21 @@
     }
 
     /* ============ choose section end =============== */
+
+    /* ============ contact section start =============== */
+    #contact_section {
+        padding: 0px 0 104px;
+    }
+
+    .contact_container {
+        padding: 70px 15px;
+    }
+
+    .contact_heading {
+        font-size: 33px;
+        line-height: 45px;
+        margin-bottom: 30px;
+    }
+
+    /* ============ contact section end =============== */
 }
