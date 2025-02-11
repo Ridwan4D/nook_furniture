@@ -1,4 +1,36 @@
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    /* ============ header section start =============== */
+    .hero_body {
+        gap: 20px;
+        padding-bottom: 50px;
+    }
+
+    .hero_card_body {
+        margin-top: 20px;
+        gap: 35px;
+    }
+
+    .hero__img_card_parent {
+        margin-top: 0px;
+    }
+
+    /* ============ header section end =============== */
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 768.9px) {
     .container {
         padding: 0 15px;
     }
@@ -8,6 +40,31 @@
         padding-top: 10;
     }
 
+    .hero_header {
+        margin-top: 17px;
+        gap: 20px;
+    }
+
+    .hero_heading {
+        font-size: 45px;
+    }
+
+    .hero_body {
+        gap: 30px;
+    }
+
+    .hero__img_card_parent {
+        margin-top: 0px;
+    }
+
+    .hero_card_images {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .hero_card_body {
+        gap: 10px;
+    }
 
     /* ============ header section end =============== */
 }
@@ -54,20 +111,25 @@
     .hero_para {
         font-size: 12px;
     }
-    .hero_body{
+
+    .hero_body {
         flex-direction: column;
         align-items: center;
         gap: 30px;
     }
-    .hero__img_card_parent{
+
+    .hero__img_card_parent {
         margin-top: 0px;
     }
-    .hero_mid_card{
+
+    .hero_mid_card {
         max-width: 269px;
         width: 100%;
     }
-    .hero_card_title{
+
+    .hero_card_title {
         font-size: 18px;
     }
+
     /* ============ header section end =============== */
 }
