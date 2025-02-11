@@ -254,7 +254,7 @@
         margin-top: 20px;
     }
 
-    .tab_content_box {
+    .tab_content {
         margin-top: 20px;
         grid-template-columns: 1fr;
         gap: 24px;
