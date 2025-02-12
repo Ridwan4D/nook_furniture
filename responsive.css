@@ -118,6 +118,16 @@
 
     /* ============ header section end =============== */
 
+    /* ============ slider section start =============== */
+    .slide_child {
+        height: 100px;
+        width: 100px;
+        top: 40%;
+        left: 44%;
+    }
+
+    /* ============ slider section end =============== */
+
     /* ============ popular section start =============== */
     .tab_content.active {
         display: grid;
@@ -256,6 +266,13 @@
     }
 
     /* ============ header section end =============== */
+
+    .slide_child {
+        height: 100px;
+        width: 100px;
+        top: 73%;
+        left: 34%;
+    }
 
     /* ============ popular section start =============== */
     .popular_heading {
