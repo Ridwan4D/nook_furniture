@@ -431,7 +431,7 @@
 
 .futura_svg_animation {
     position: absolute;
-    top: 165px;
+    top: 630px;
     width: 100%;
     z-index: 1;
     animation: bounce 7s linear infinite;
@@ -540,7 +540,7 @@
 .futura_badge {
     position: absolute;
     top: -100px;
-    right: 0;
+    right: 20px;
 }
 
 /* =========== futura section ends here ================ */
@@ -597,6 +597,7 @@
 }
 
 .choose_card_desc {
+    font-size: 18px;
     padding: 0 30px;
     color: #495050;
 }
@@ -672,7 +673,7 @@
 }
 
 .contact_call_btn {
-    padding: 12px 16px 12px 36px;
+    padding: 12px 36px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -780,6 +781,10 @@
 .privacy_div {
     display: flex;
     gap: 76px;
+}
+
+.footer_policy_btn {
+    color: #495050;
 }
 
 /* =========== footer section ends here ================ */

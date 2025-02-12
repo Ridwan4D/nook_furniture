@@ -275,6 +275,10 @@
     }
 
     /* ============ popular section start =============== */
+    #popular_section {
+        margin-top: 80px;
+    }
+
     .popular_heading {
         font-size: 31px;
     }
