@@ -50,10 +50,12 @@
 
 /* =========== header section starts here ================ */
 #header_section {
-    height: auto;
+    background-color: #FAFAFA;
+}
+
+#hero_section {
     position: relative;
     background-color: #FAFAFA;
-    /* z-index: -2; */
 }
 
 .hero_svg_animation {
@@ -619,22 +621,30 @@
 }
 
 .contact_bg_svg {
-    width: 100%;
+    width: 115%;
     position: absolute;
-    top: 370px;
+    top: 375px;
     animation: bounce 7s linear infinite;
 }
 
 .rotate_1 {
+    opacity: .2;
     position: absolute;
     top: 190px;
     left: 107px;
 }
 
 .rotate_2 {
+    opacity: .2;
     position: absolute;
     top: 265px;
     left: 80px;
+}
+
+.rotate_3 {
+    position: absolute;
+    bottom: 125px;
+    right: 125px;
 }
 
 .contact_content {
