@@ -108,7 +108,7 @@
         gap: 10px;
     }
 
-    .hero_badge{
+    .hero_badge {
         position: absolute;
         top: 5px;
         left: 24%;
@@ -237,12 +237,14 @@
     .hero_card_title {
         font-size: 18px;
     }
-    .hero_badge{
+
+    .hero_badge {
         position: absolute;
         top: 5px;
         left: 24%;
         width: 50%;
     }
+
     /* ============ header section end =============== */
 
     /* ============ popular section start =============== */
@@ -301,6 +303,7 @@
 
     .futura_badge {
         top: 30px;
+        left: 84px;
     }
 
     /* ============ futura section end =============== */

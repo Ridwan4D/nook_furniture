@@ -52,23 +52,38 @@
 #header_section {
     height: auto;
     position: relative;
+    background-color: #FAFAFA;
+    /* z-index: -2; */
 }
 
-#header_section::after {
-    content: "";
+.hero_svg_animation {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 60px;
     width: 100%;
-    height: 100%;
-    background: url('images/Hero.png');
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
+    z-index: 1;
+    animation: bounce 7s linear infinite;
 }
 
+/* animation of hero section */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+/* animation of hero section */
 .header_container {
     padding-top: 24px;
+    position: relative;
+    z-index: 1;
 }
 
 .navbar {
@@ -138,14 +153,17 @@
 .hero__img_card_parent {
     margin-top: 135px;
 }
-.hero__img_card_parent{
+
+.hero__img_card_parent {
     position: relative;
 }
-.hero_badge{
+
+.hero_badge {
     position: absolute;
     top: -98px;
     left: 33%;
 }
+
 /* =========== header section ends here ================ */
 
 /* =========== marquee section starts here ================ */
@@ -184,6 +202,7 @@
     from {
         transform: translateX(0);
     }
+
     to {
         transform: translateX(-50%);
     }
@@ -255,11 +274,13 @@
     gap: 24px;
     animation: moving .5s ease;
 }
+
 @keyframes moving {
     from {
         opacity: 0;
         transform: translateY(50px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -309,26 +330,27 @@
     height: auto;
     margin-top: 144px;
     position: relative;
+    background-color: var(--primary-color);
+    /* z-index: -2; */
 }
 
-#futura_section::after {
-    content: "";
+.futura_svg_animation {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 165px;
     width: 100%;
-    height: 100%;
-    background: url('images/futura_design_bg.png');
-    background-size: cover;
-    background-position: bottom;
-    z-index: -1;
+    z-index: 1;
+    animation: bounce 7s linear infinite;
 }
+
+
 
 .futura_container {
     padding: 150px 0;
     display: flex;
     justify-content: space-between;
     align-items: end;
+    position: relative;
+    z-index: 2;
 }
 
 .futura_left {
@@ -661,10 +683,10 @@
 /* =========== footer section ends here ================ */
 
 
-.rotate_360{
-    -webkit-animation: spin 5s linear infinite;
-    -moz-animation: spin 5s linear infinite;
-    animation: spin 5s linear infinite;
+.rotate_360 {
+    -webkit-animation: spin 8s linear infinite;
+    -moz-animation: spin 8s linear infinite;
+    animation: spin 8s linear infinite;
 }
 
 
@@ -676,12 +698,20 @@
 
 
 /* =========== animation ============== */
-@-webkit-keyframes spin{
-    100%{-webkit-transform: rotate(360deg);}
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
 }
-@-moz-keyframes spin{
-    100%{-webkit-transform: rotate(360deg);}
+
+@-moz-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
 }
-@keyframes spin{
-    100%{-webkit-transform: rotate(360deg);}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
 }
