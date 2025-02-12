@@ -267,14 +267,6 @@
     transition: all .3s ease-in-out;
 }
 
-.tab_content {
-    margin-top: 48px;
-    display: none;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
-    animation: moving .5s ease;
-}
-
 @keyframes moving {
     from {
         opacity: 0;
@@ -285,6 +277,14 @@
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+.tab_content {
+    margin-top: 48px;
+    display: none;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    animation: moving .5s ease;
 }
 
 .tab_content.active {

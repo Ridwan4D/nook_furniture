@@ -15,7 +15,6 @@ tabs.forEach((tab, idx) => {
 
     all_content.forEach((content) => {
       content.classList.remove("active");
-      setTimeout(upData, 1);
     });
     all_content[idx].classList.add("active");
   });
