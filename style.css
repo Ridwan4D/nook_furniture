@@ -511,27 +511,34 @@
 /* =========== contact section starts here ================ */
 #contact_section {
     padding: 109px 0 104px;
+    position: relative;
 }
 
 .contact_container {
     height: auto;
-    position: relative;
     display: flex;
     justify-content: center;
     padding: 99px 0 98px;
+    background-color: var(--primary-color);
 }
 
-.contact_container::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
+.contact_bg_svg {
     width: 100%;
-    height: 100%;
-    background: url('images/contact_bg.png');
-    background-size: cover;
-    background-position: bottom;
-    z-index: 0;
+    position: absolute;
+    top: 370px;
+    animation: bounce 7s linear infinite;
+}
+
+.rotate_1 {
+    position: absolute;
+    top: 190px;
+    left: 107px;
+}
+
+.rotate_2 {
+    position: absolute;
+    top: 265px;
+    left: 80px;
 }
 
 .contact_content {
@@ -683,35 +690,18 @@
 /* =========== footer section ends here ================ */
 
 
-.rotate_360 {
-    -webkit-animation: spin 8s linear infinite;
-    -moz-animation: spin 8s linear infinite;
+.rotate_360,
+.rotate_360_N {
     animation: spin 8s linear infinite;
 }
 
-
-
-
-
-
-
-
+.rotate_360_N {
+    animation-direction: reverse;
+}
 
 /* =========== animation ============== */
-@-webkit-keyframes spin {
-    100% {
-        -webkit-transform: rotate(360deg);
-    }
-}
-
-@-moz-keyframes spin {
-    100% {
-        -webkit-transform: rotate(360deg);
-    }
-}
-
 @keyframes spin {
     100% {
-        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
     }
 }
