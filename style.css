@@ -211,6 +211,101 @@
 /* =========== animation of marquee section ends here ================ */
 
 
+/* =========== slider section starts here ================ */
+.checkout_card_container {
+    position: relative;
+}
+
+.card_wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    display: flex;
+    /* Ensure proper alignment */
+    align-items: center;
+}
+
+.slider_container {
+    margin-top: 116px;
+}
+
+.slider_image_container {
+    position: relative;
+}
+
+.slider_image_container .font_roslindale {
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 500;
+    left: 16px;
+    bottom: 16px;
+}
+
+.checkout_card_img {
+    width: 307px;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.slide_parent {
+    position: relative;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 307px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.slide_child {
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 32%;
+    left: 45%;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.slide_child .font_inter {
+    font-size: 18px;
+    color: #303635;
+}
+
+.slide_next,
+.slide_prev {
+    cursor: pointer;
+}
+
+
+/* =========== slider section ends here ================ */
+
+
+
 /* =========== popular section starts here ================ */
 #popular_section {
     margin-top: 143px;
