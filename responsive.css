@@ -152,6 +152,11 @@
         left: 44%;
     }
 
+    #slider_btn_container {
+        position: absolute;
+        transform: translate(-101%, -100%)
+    }
+
     /* ============ slider section end =============== */
 
     /* ============ popular section start =============== */
@@ -255,7 +260,8 @@
     .nav_end {
         gap: 2px;
     }
-    .nav_social{
+
+    .nav_social {
         width: 75%;
     }
 
@@ -376,7 +382,7 @@
 
     .futura_badge {
         top: -60px;
-        right: -3px;
+        right: 9px;
         width: 37%;
     }
 

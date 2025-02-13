@@ -215,6 +215,11 @@
 
 
 /* =========== slider section starts here ================ */
+#slider_section {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .slider_container {
     margin-top: 116px;
@@ -257,18 +262,17 @@
     object-fit: cover;
 }
 
-
-.slide_child {
+#slider_btn_container {
     height: 140px;
     width: 140px;
     border-radius: 100%;
+    display: flex;
     gap: 6px;
     align-items: center;
     justify-content: center;
-    top: 32%;
-    left: 45%;
     background-color: #fff;
-    z-index: 1;
+    z-index: 1000;
+    pointer-events: none;
 }
 
 .slide_child .font_inter {
@@ -595,7 +599,7 @@
 }
 
 .contact_bg_svg {
-    width: 115%;
+    width: 100%;
     top: 375px;
     animation: bounce 7s linear infinite;
 }
