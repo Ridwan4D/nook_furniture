@@ -102,7 +102,6 @@
     transition: all 0.3s ease-in-out;
 }
 
-
 .nav_end {
     gap: 24px;
 }
@@ -137,8 +136,16 @@
     max-width: 269px;
 }
 
+.hero__img_card_parent {
+    margin-top: 135px;
+    max-height: 437px;
+    height: 100%;
+}
+
 .hero_mid_card {
     max-width: 600px;
+    max-height: 437px;
+    height: 100%;
 }
 
 .hero_card_images {
@@ -159,10 +166,6 @@
 
 .hero_card_2 {
     font-size: 24px;
-}
-
-.hero__img_card_parent {
-    margin-top: 135px;
 }
 
 .hero_badge {
@@ -727,6 +730,7 @@
 
 .footer_heading {
     font-size: 32px;
+    font-weight: 500;
     line-height: 46px;
     color: #303635;
     padding-right: 15%;
