@@ -109,7 +109,6 @@
 
 .hero_header {
     margin-top: 53px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -181,7 +180,6 @@
 }
 
 .logos {
-    display: flex;
     overflow: hidden;
     white-space: nowrap;
     /* gap: 24px; */
@@ -189,7 +187,6 @@
 }
 
 .logos-slide {
-    display: flex;
     gap: 20px;
     animation: slide 12s linear infinite;
     width: max-content;
@@ -218,15 +215,6 @@
 
 
 /* =========== slider section starts here ================ */
-
-.card_wrapper {
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 20px 10px;
-    display: flex;
-    /* Ensure proper alignment */
-    align-items: center;
-}
 
 .slider_container {
     margin-top: 116px;
@@ -274,7 +262,6 @@
     height: 140px;
     width: 140px;
     border-radius: 100%;
-    display: flex;
     gap: 6px;
     align-items: center;
     justify-content: center;
@@ -304,7 +291,6 @@
 }
 
 .popular_header {
-    display: flex;
     justify-content: center;
 }
 
@@ -317,14 +303,12 @@
 
 .popular_body {
     margin-top: 48px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .popular_tab_box {
-    display: flex;
     justify-content: space-around;
     border-bottom: 2px solid #CFCFCF;
     gap: 44.33px;
@@ -393,7 +377,6 @@
 }
 
 .see_all_bnt {
-    display: flex;
     gap: 10px;
 }
 
@@ -442,7 +425,6 @@
 
 .futura_container {
     padding: 150px 0;
-    display: flex;
     justify-content: space-between;
     align-items: end;
     z-index: 2;
@@ -472,7 +454,6 @@
 .futura_btn {
     background: none;
     border: none;
-    display: flex;
     align-items: center;
     gap: 8px;
     color: white;
@@ -501,7 +482,6 @@
     width: 100%;
     padding: 40px 56px;
     color: var(--primary-color);
-    display: flex;
     gap: 117px;
 }
 
@@ -554,7 +534,6 @@
 }
 
 .choose_header {
-    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 48px;
@@ -564,7 +543,6 @@
 }
 
 .choose_body {
-    display: flex;
     justify-content: space-between;
 }
 
@@ -611,7 +589,6 @@
 
 .contact_container {
     height: auto;
-    display: flex;
     justify-content: center;
     padding: 99px 0 98px;
     background-color: var(--primary-color);
@@ -642,7 +619,6 @@
 
 .contact_content {
     z-index: 1;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -669,14 +645,12 @@
 }
 
 .contact_btn_container {
-    display: flex;
     align-items: center;
     gap: 40px;
 }
 
 .contact_call_btn {
     padding: 12px 36px;
-    display: flex;
     align-items: center;
     gap: 10px;
     color: var(--primary-color);
@@ -685,7 +659,6 @@
 
 .contact_see_btn {
     padding: 12px 16px 12px 24px;
-    display: flex;
     align-items: center;
     background: none;
     border: 1px solid white;
@@ -703,7 +676,6 @@
 }
 
 .footer_top {
-    display: flex;
     justify-content: space-between;
     margin-bottom: 56px;
 }
@@ -726,17 +698,14 @@
 }
 
 .footer_img_container {
-    display: flex;
     gap: 23px;
 }
 
 .footer_top_center {
-    display: flex;
     gap: 128px;
 }
 
 .footer_link_container {
-    display: flex;
     flex-direction: column;
     gap: 16px;
 }
@@ -774,12 +743,10 @@
 .footer_bottom {
     margin-top: 20px;
     color: #5A5E5E;
-    display: flex;
     justify-content: space-between;
 }
 
 .privacy_div {
-    display: flex;
     gap: 76px;
 }
 
