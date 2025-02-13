@@ -12,7 +12,7 @@
 
 <body>
 
-    <header id="header_section">
+    <header id="header_section" class="bg_off_white">
         <nav class="navbar flex container">
             <div class="nav_start"><img src="images/site_logo.svg" alt=""></div>
             <div class="nav_center"><img src="images/hamburger.svg" alt="" class="hamburger_img"></div>
@@ -26,9 +26,9 @@
     </header>
     <!-- header section ends here -->
 
-    <section id="hero_section">
-        <img src="images/hero_svg.svg" alt="" class="hero_svg_animation">
-        <div class="header_container container">
+    <section id="hero_section" class="bg_off_white relative">
+        <img src="images/hero_svg.svg" alt="" class="hero_svg_animation absolute">
+        <div class="header_container container relative">
             <div class="hero_section">
                 <div class="hero_header">
                     <h1 class="hero_heading font_roslindale">Make your environment minimalistic and futuristic</h1>
@@ -47,8 +47,8 @@
                         </div>
                     </div>
                     <!-- card -->
-                    <div class="hero__img_card_parent">
-                        <img src="images/explore_badge.svg" alt="" class="hero_badge rotate_360">
+                    <div class="hero__img_card_parent relative">
+                        <img src="images/explore_badge.svg" alt="" class="hero_badge absolute rotate_360">
                         <img src="images/hero_furniture_2.png" alt="" class="hero_card_images hero_mid_card">
                     </div>
                     <!-- card -->
@@ -64,7 +64,7 @@
         </div>
         <!-- marquee section starts here -->
         <div id="marquee_section">
-            <div class="logos">
+            <div class="logos relative">
                 <div class="logos-slide">
                     <span class="marquee_item">
                         <span class="marquee_div">Woak Table</span>
@@ -153,7 +153,7 @@
     <!-- slide image section -->
     <section id="slider_section">
         <div class="container slider_container">
-            <div class="swiper mySwiper slide_parent">
+            <div class="swiper mySwiper slide_parent relative">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide slider_image_container">
                         <img src="images/slideer_1.png" alt="checkout_card_img" class="checkout_card_img">
@@ -185,7 +185,7 @@
                     </div>
                 </div>
                 <!-- <div class="swiper-pagination"></div> -->
-                <div class="slide_child">
+                <div class="slide_child text-lg absolute">
                     <img src="images/chevron-left.svg" alt="" class="slide_prev">
                     <h3 class="font_inter">Scroll</h3>
                     <img src="images/chevron-right.svg" alt="" class="slide_next">
@@ -203,12 +203,12 @@
                 <h1 class="font_roslindale popular_heading">Popular Collection</h1>
             </div>
             <div class="popular_body">
-                <div class="popular_tab_box">
-                    <button class="tab_btn font_roslindale active">Sofa</button>
-                    <button class="tab_btn font_roslindale">Table</button>
-                    <button class="tab_btn font_roslindale">Chair</button>
-                    <button class="tab_btn font_roslindale">Accessories</button>
-                    <div class="line"></div>
+                <div class="popular_tab_box relative">
+                    <button class="tab_btn text-lg font_roslindale active">Sofa</button>
+                    <button class="tab_btn text-lg font_roslindale">Table</button>
+                    <button class="tab_btn text-lg font_roslindale">Chair</button>
+                    <button class="tab_btn text-lg font_roslindale">Accessories</button>
+                    <div class="line absolute"></div>
                 </div>
                 <div class="tab_content_box">
                     <div class="tab_content active">
@@ -478,8 +478,8 @@
 
                 </div>
                 <div class="see_all_bnt_div">
-                    <button class="see_all_bnt">See all Collection <img src="images/See_all_arrow.svg" alt=""
-                            class="see_all_bnt_arrow"></button>
+                    <button class="see_all_bnt relative text-lg">See all Collection <img src="images/See_all_arrow.svg"
+                            alt="" class="see_all_bnt_arrow text-lg"></button>
                 </div>
             </div>
         </div>
@@ -487,34 +487,35 @@
     <!-- popular collection section ends here -->
 
     <!-- futura design section starts here -->
-    <section id="futura_section">
-        <img src="images/futura_svg.svg" alt="" class="futura_svg_animation">
-        <div class="futura_container container">
+    <section id="futura_section" class="relative">
+        <img src="images/futura_svg.svg" alt="" class="futura_svg_animation absolute">
+        <div class="futura_container container relative">
             <div class="futura_left">
                 <div class="futura_left_top">
                     <h1 class="font_roslindale futura_heading"> Futura designed for
                         Better living</h1>
                     <p class="font_inter futura_desc"> Introducing collections of high-quality furniture that bear
                         all the hallmarkes of British engineering.</p>
-                    <button class="futura_btn">Read More <img src="images/arrow-up-right.svg" alt=""></button>
+                    <button class="futura_btn relative text-lg">Read More <img src="images/arrow-up-right.svg"
+                            alt=""></button>
                 </div>
-                <div class="futura_left_bottom">
-                    <div class="futura_bottom_element">
+                <div class="futura_left_bottom relative">
+                    <div class="futura_bottom_element relative">
                         <p class="font_inter futura_bottom_heading">Furniture</p>
                         <h2 class="font_roslindale futura_bottom_info" data-target="50">0</h2>
                     </div>
-                    <div class="futura_bottom_element">
+                    <div class="futura_bottom_element relative">
                         <p class="font_inter futura_bottom_heading">Decor</p>
                         <h2 class="font_roslindale futura_bottom_info" data-target="20">0</h2>
                     </div>
-                    <div class="futura_bottom_element">
+                    <div class="futura_bottom_element relative">
                         <p class="font_inter futura_bottom_heading">Finishes</p>
                         <h2 class="font_roslindale futura_bottom_info" data-target="800">0</h2>
                     </div>
                 </div>
             </div>
-            <div class="futura_right">
-                <div><img src="images/explore_white_badge.svg" alt="" class="futura_badge rotate_360"></div>
+            <div class="futura_right relative">
+                <div><img src="images/explore_white_badge.svg" alt="" class="futura_badge absolute rotate_360"></div>
                 <div><img src="images/Mask group.png" alt="" class="futura_img"></div>
             </div>
         </div>
@@ -533,7 +534,8 @@
                     <img src="images/support.svg" alt="" class="choose_card_img">
                     <div class="choose_card_body">
                         <h4 class="choose_card_heading font_roslindale">24/7 Support</h4>
-                        <p class="choose_card_desc font_inter">Excepteur sint occaecat cupidatat non proident, sunt in
+                        <p class="choose_card_desc font_inter text-lg">Excepteur sint occaecat cupidatat non proident,
+                            sunt in
                             culpa qui officia deserunt mollit.</p>
                     </div>
                 </div>
@@ -561,13 +563,13 @@
     <!-- why choose us section ends here -->
 
     <!-- contact section starts here -->
-    <section id="contact_section" class="container">
-        <img src="images/contact_bg_svg.svg" alt="" class="contact_bg_svg">
-        <img src="images/rotate_1.svg" alt="" class="rotate_1 rotate_360">
-        <img src="images/rotate_2.svg" alt="" class="rotate_2 rotate_360_N">
-        <img src="images/rotate_3.svg" alt="" class="rotate_3 rotate_360">
+    <section id="contact_section" class="container relative">
+        <img src="images/contact_bg_svg.svg" alt="" class="contact_bg_svg absolute">
+        <img src="images/rotate_1.svg" alt="" class="rotate_1 absolute rotate_360">
+        <img src="images/rotate_2.svg" alt="" class="rotate_2 absolute rotate_360_N">
+        <img src="images/rotate_3.svg" alt="" class="rotate_3 absolute rotate_360">
         <div class="contact_container">
-            <div class="contact_content">
+            <div class="contact_content relative">
                 <div class="contact_heading">
                     <h2 class="contact_heading font_roslindale">Get an instant quote for your new office setup!</h2>
                     <p class="contact_desc font_inter">Do l have consant to record this meeting gain traction,
@@ -593,7 +595,7 @@
                     <div>
                         <img src="images/site_logo.svg" alt="" class="footer_logo_img">
                     </div>
-                    <p class="footer_top_desc font_inter">
+                    <p class="footer_top_desc font_inter text-lg">
                         Custom furniture for minimalist life. We make beautiful design and sustainable furniture in
                         country
                     </p>
@@ -605,17 +607,17 @@
                 </div>
                 <div class="footer_top_center">
                     <ul class="footer_link_container">
-                        <li><a href="#" class="footer_links">About Us</a></li>
-                        <li><a href="#" class="footer_links">Reviews</a></li>
-                        <li><a href="#" class="footer_links">Financing</a></li>
-                        <li><a href="#" class="footer_links">Blog</a></li>
-                        <li><a href="#" class="footer_links">Contact Us</a></li>
+                        <li><a href="#" class="footer_links text-lg">About Us</a></li>
+                        <li><a href="#" class="footer_links text-lg">Reviews</a></li>
+                        <li><a href="#" class="footer_links text-lg">Financing</a></li>
+                        <li><a href="#" class="footer_links text-lg">Blog</a></li>
+                        <li><a href="#" class="footer_links text-lg">Contact Us</a></li>
                     </ul>
                     <ul class="footer_link_container">
-                        <li><a href="#" class="footer_links">FAQ</a></li>
-                        <li><a href="#" class="footer_links">Career</a></li>
-                        <li><a href="#" class="footer_links">Return</a></li>
-                        <li><a href="#" class="footer_links">Shipping</a></li>
+                        <li><a href="#" class="footer_links text-lg">FAQ</a></li>
+                        <li><a href="#" class="footer_links text-lg">Career</a></li>
+                        <li><a href="#" class="footer_links text-lg">Return</a></li>
+                        <li><a href="#" class="footer_links text-lg">Shipping</a></li>
                     </ul>
                 </div>
                 <div class="footer_top_end">
