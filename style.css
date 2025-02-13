@@ -738,6 +738,7 @@
     background-color: var(--primary-color);
     color: white;
     border: none;
+    display: flex;
 }
 
 .horizontal_line {
