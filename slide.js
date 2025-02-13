@@ -1,6 +1,7 @@
 new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 10,
+    loop: true,
     navigation: {
         nextEl: ".slide_next",
         prevEl: ".slide_prev",
