@@ -43,7 +43,9 @@
     font-size: 18px;
 }
 
-
+.ml_24{
+    margin-left: 24px;
+}
 
 /* =========== common styling ends here ================ */
 
@@ -172,22 +174,21 @@
 #marquee_section {
     padding: 24px 0;
     border-bottom: 1px solid #6D7373;
-    overflow: hidden;
-    white-space: nowrap;
-    position: relative;
 }
 
 .logos {
     display: flex;
     overflow: hidden;
     position: relative;
+    white-space: nowrap;
+    /* gap: 24px; */
     width: 100%;
 }
 
 .logos-slide {
     display: flex;
     gap: 20px;
-    animation: slide 10s linear infinite;
+    animation: slide 12s linear infinite;
     width: max-content;
 }
 
@@ -206,7 +207,7 @@
     }
 
     to {
-        transform: translateX(-50%);
+        transform: translateX(-100%);
     }
 }
 
