@@ -253,7 +253,10 @@
     }
 
     .nav_end {
-        display: none;
+        gap: 2px;
+    }
+    .nav_social{
+        width: 75%;
     }
 
     .hero_header {
