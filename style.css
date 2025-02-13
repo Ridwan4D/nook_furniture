@@ -43,7 +43,7 @@
     font-size: 18px;
 }
 
-.ml_24{
+.ml_24 {
     margin-left: 24px;
 }
 
@@ -94,6 +94,12 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.hamburger_img {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
 
 .nav_end {
     gap: 24px;
@@ -172,6 +178,7 @@
 
 /* =========== marquee section starts here ================ */
 #marquee_section {
+    background-color: #fff;
     padding: 24px 0;
     border-bottom: 1px solid #6D7373;
 }
@@ -404,17 +411,32 @@
 
 .see_all_bnt_div {
     margin-top: 80px;
+}
+
+.see_all_bnt {
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
+    position: relative;
+}
+
+.see_all_bnt::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: var(--primary-color);
+    transition: width .2s ease-in-out;
+}
+.see_all_bnt:hover::after{
+    width: 100%;
 }
 
 .see_all_bnt,
 .see_all_bnt_arrow {
     background: none;
     border: none;
-    text-decoration: underline;
     font-size: 18px;
     color: var(--primary-color);
     cursor: pointer;
@@ -479,16 +501,25 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    text-decoration: underline;
     color: white;
     cursor: pointer;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
+    position: relative;
 }
 
-.futura_btn:hover {
-    background: rgba(0, 0, 0, 0.3);
-    padding: 2px 5px 2px 15px;
-    border-radius: 5px;
+.futura_btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+.futura_btn:hover::after {
+    width: 100%;
 }
 
 .futura_left_bottom {
