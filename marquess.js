@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   marqueeContainer.innerHTML += marqueeSlide.outerHTML;
 
-  // let currentPosition = 0;
+  let currentPosition = 0;
   const speed = 10;
 
   function animateMarquee() {

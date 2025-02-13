@@ -18,6 +18,12 @@
         margin-top: 0px;
     }
 
+    .hero_badge {
+        top: -1px;
+        left: 30%;
+
+    }
+
     /* ============ header section end =============== */
     /* ============ popular section start =============== */
     .tab_content.active {
@@ -32,6 +38,10 @@
     /* ============ popular section end =============== */
 
     /* ============ futura section start =============== */
+    #futura_section {
+        margin-top: 80px;
+    }
+
     .futura_container {
         padding: 30px 15px;
     }
@@ -56,11 +66,27 @@
     /* ============ futura section end =============== */
 
     /* ============ contact section start =============== */
+    #contact_section {
+        padding: 0;
+    }
+
     .contact_container {
         padding: 70px 15px;
     }
 
+    .contact_bg_svg {
+        width: 100%;
+    }
+
     /* ============ contact section end =============== */
+
+    /* ============ footer section start =============== */
+    .footer_top_center {
+        display: flex;
+        gap: 50px;
+    }
+
+    /* ============ footer section end =============== */
 }
 
 
@@ -72,7 +98,7 @@
 
 
 
-@media (min-width: 481px) and (max-width: 768.9px) {
+@media (min-width: 601px) and (max-width: 768px) {
     .container {
         padding: 0 15px;
     }
@@ -93,7 +119,7 @@
 
     .hero_body {
         gap: 30px;
-        margin-bottom: 70px;
+        margin-bottom: 80px;
     }
 
     .hero__img_card_parent {
@@ -143,7 +169,7 @@
     /* ============ futura section start =============== */
     .futura_container {
         flex-direction: column;
-        padding: 20px 0;
+        padding: 40px 0;
         align-items: center;
     }
 
@@ -180,6 +206,10 @@
     /* ============ choose section end =============== */
 
     /* ============ contact section start =============== */
+    #contact_section {
+        padding: 0;
+    }
+
     .contact_container {
         padding: 90px 15px;
     }
@@ -190,7 +220,7 @@
     }
 
     .contact_bg_svg {
-        top: 415px;
+        display: none;
     }
 
     /* ============ contact section end =============== */
@@ -207,7 +237,7 @@
 
 
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 600px) {
     .container {
         padding: 0 15px;
     }
@@ -254,7 +284,8 @@
         width: 100%;
     }
 
-    .hero_card_title {
+    .hero_card_title,
+    .hero_card_2 {
         font-size: 18px;
     }
 
@@ -265,12 +296,16 @@
         width: 50%;
     }
 
+    .logos-slide {
+        animation: slide 17s linear infinite;
+    }
+
     /* ============ header section end =============== */
 
     .slide_child {
         height: 100px;
         width: 100px;
-        top: 73%;
+        top: 40%;
         left: 34%;
     }
 
@@ -300,6 +335,10 @@
     /* ============ popular section end =============== */
 
     /* ============ futura section start =============== */
+    #futura_section {
+        margin-top: 50px;
+    }
+
     .futura_container {
         flex-direction: column;
         padding-bottom: 20px;
@@ -329,12 +368,13 @@
     }
 
     .futura_right {
-        margin-top: 25px;
+        margin-top: 70px;
     }
 
     .futura_badge {
-        top: 30px;
-        left: 84px;
+        top: -60px;
+        right: -3px;
+        width: 37%;
     }
 
     /* ============ futura section end =============== */
@@ -387,8 +427,23 @@
     }
 
     .rotate_1,
-    .rotate_2 {
+    .rotate_2,
+    .contact_bg_svg,
+    .hero_svg_animation {
         display: none;
+        display: none;
+    }
+
+    .contact_btn_container {
+        gap: 13px;
+    }
+
+    .contact_call_btn {
+        padding: 12px 10px;
+    }
+
+    .contact_see_btn {
+        padding: 12px 10px;
     }
 
     /* ============ contact section end =============== */
